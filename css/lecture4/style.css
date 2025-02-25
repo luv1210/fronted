@@ -4,17 +4,17 @@ h1{
 }
 
 h1{
-    background-color: orange;
+    background-color: yellow;
 }
 
 .heading{
-    background-color: blue !important;
+    background-color: purple !important;
 } 
 .heading{
     background-color: unset;
 } 
 #demo{
-    background-color: gray;
+    background-color: brown;
 } 
 #demo{
     background-color: unset;
@@ -23,14 +23,14 @@ h1{
 
 
  a[target="_blank"]{
-    background-color: orange;
+    background-color: blue;
 }
 
 a[target]{
-    background-color: orange;
+    background-color:red;
 }
 
-a[href="https://www.facebook.com"]{
+a[href="https://www.instagram.com"]{
     text-decoration: none;
 }
 
