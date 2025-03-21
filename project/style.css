@@ -26,6 +26,9 @@ ol {
 /* START NAVBAR */
 header {
     background-image: url(./background.jpeg);
+    display: block;
+    height: 100vh;
+    
 }
 
 .grid {
@@ -46,14 +49,14 @@ header {
     display: grid;
     grid-template-columns: repeat(6, 1fr);
 
-    li a {
-       color: white;
-        padding:20px 30px;
-        display:flex;
-        align-items:center;
-
-    } 
 }
+li a {
+color: white;
+padding:20px 30px;
+    display:flex;
+    align-items:center;
+
+} 
 
 .nav-btn ul li:nth-child(1) a {
     display: block;
@@ -81,45 +84,84 @@ header {
 .nav-btn ul li:nth-child(2) a {
     display: none;
 }
-/* 
-.text div h1{
-    display: grid;
-    align-items: center;
-    font-size:38px;
-    color: white;
-} */
 
-.text{
+
+
    .heading{
-    display: grid;
-    align-items: center;
     font-size:28px;
     color: white;
    }
 
    .description{
-    display: grid;
-    align-items: center;
-    /* font-size:28px; */
     color: white;
-
+    font-size: 25px ;
+margin-bottom: 50px;
    }
    .btn :nth-of-type(1) {
-    
-    /* display: block;
-    align-items: center; */
     padding: 10px 20px;
     background-color: white;
     border-radius: 100px;
     color:#262b32;
-    font-size: 17px;
 
    }
    .btn :nth-of-type(2){
+    margin-top: 50px;
     padding: 10px 20px;
     border-radius: 100px;
     border: 1px solid;
     border-color: white;
     color: white;
    }
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+margin-top: 200px;
 }
+
+.img1 img{
+   
+   
+    width: 600px;
+   
+ 
+   
+}
+
+.text1{
+    width: 45%;
+}
+
+.styled-image {
+    position: relative;
+    display: inline-block;
+    border-radius: 12px;
+  }
+
+  .styled-image img {
+    border-radius: 12px;
+    box-shadow: 10px 10px 40px rgba(0, 0, 0, 0.1);
+  }
+
+  .styled-image::before {
+    content: "";
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    width: 100%;
+    height: 100%;
+    background: #EDF2FE;
+    border-radius: 12px;
+    z-index: -1;
+  }
+  .styled-image::after {
+    content: "";
+    position: absolute;
+    top: -30px;
+    left: -30px;
+    width: 200px;
+    height: 200px;
+    background: radial-gradient(circle, #5773B8 1px, transparent 1px);
+    background-size: 10px 10px;
+    z-index: -1;
+  }
