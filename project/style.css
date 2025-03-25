@@ -26,7 +26,7 @@ ol {
 /* START NAVBAR */
 header {
     background-image: url(./background.jpeg);
-    display: block;
+    /* display: block; */
     height: 100vh;
     
 }
@@ -67,25 +67,8 @@ padding:20px 30px;
     border-radius: 100px;
     text-align: center;
     white-space: nowrap;
+    color: #262b32;
 }
-
-.nav-btn ul li:nth-child(2) a {
-    color: white;
-    font-size: 25px;
-}
-
-.nav-btn ul {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    align-items: center;
-    column-gap: 2px;
-}
-
-.nav-btn ul li:nth-child(2) a {
-    display: none;
-}
-
-
 
    .heading{
     font-size:28px;
@@ -119,49 +102,27 @@ margin-bottom: 50px;
 margin-top: 200px;
 }
 
-.img1 img{
-   
-   
+.img1 img{ 
     width: 600px;
-   
- 
-   
 }
 
 .text1{
     width: 45%;
 }
 
-.styled-image {
-    position: relative;
-    display: inline-block;
-    border-radius: 12px;
-  }
+/* 2 page start */
+.trp{
+    margin-top: 150px;
+    color: #747ed1;
+   
+}
 
-  .styled-image img {
-    border-radius: 12px;
-    box-shadow: 10px 10px 40px rgba(0, 0, 0, 0.1);
-  }
+.hkl{
+    margin-top: 20px;
+    color:#343f52;
+    font-size:36px;
+}
 
-  .styled-image::before {
-    content: "";
-    position: absolute;
-    top: 30px;
-    left: 30px;
-    width: 100%;
-    height: 100%;
-    background: #EDF2FE;
-    border-radius: 12px;
-    z-index: -1;
-  }
-  .styled-image::after {
-    content: "";
-    position: absolute;
-    top: -30px;
-    left: -30px;
-    width: 200px;
-    height: 200px;
-    background: radial-gradient(circle, #5773B8 1px, transparent 1px);
-    background-size: 10px 10px;
-    z-index: -1;
-  }
+.lol{
+    text-align: center;
+}
